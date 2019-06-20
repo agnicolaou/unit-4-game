@@ -20,56 +20,60 @@
 
 <body background="images/shiningbackground.jpg">
 
-    <div class="row">
-        <div class="col-md-4" id="game-title">
-            <h2>Overlook Hotel Madness</h2>
+        <div class="row">
+            <div class="col-md-4" id="game-title">
+                <h2>Overlook Hotel Madness</h2>
+            </div>
         </div>
-    </div>
 
 
-    <div class="row">
-        <div class="col-md-4" id="instructions">
-            <p>You will be given a random number at the start of the game.</p>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
-                total score.</p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total score
-                goes above the random number.</p>
-            <p>The value of each crystal is hidden from you until you click on it.</p>
-            <p>Each time when the game starts, the game will change the values of each crystal</p>
+        <div class="row">
+            <div class="col-md-4" id="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your
+                    total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal</p>
+            </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-1" id="match-score"></div>
-        <div class="col-md-3" id="scoreboard"></div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-md-4" id="buttons-div">
-
-            <button id="random-button1" class="button">
-                <img src="images/blue.png" alt="Blue">
-            </button>
-
-            <button id="random-button2" class="button">
-                <img src="images/green.png" alt="Green">
-            </button>
-
-            <button id="random-button3" class="button">
-                <img src="images/red.png" alt="red">
-            </button>
-
-            <button id="random-button4" class="button">
-                <img src="images/yellow.png" alt="yellow">
-            </button>
-
+        <div class="row">
+            <div class="col-md-1" id="match-score"></div>
+            <div class="col-md-3" id="scoreboard">
+                <div id="wins"></div>
+                <div id="losses"></div>
+                <div id="rounds"></div>
+            </div>
         </div>
+
+
+        <div class="row">
+            <div id="buttons-div" class="col-md-5">
+
+                <button class="button">
+                    <img src="images/blue.jpg" id="random-button1" alt="Blue">
+                </button>
+
+                <button class="button">
+                    <img src="images/green.jpg" id="random-button2" alt="Green">
+                </button>
+
+                <button class="button">
+                    <img src="images/red.jpg" id="random-button3" alt="red">
+                </button>
+
+                <button class="button">
+                    <img src="images/yellow.jpg" id="random-button4" alt="yellow">
+                </button>
+            </div>
     </div>
 
 
 
-    <div id="counter-title"></div>
+    <div id="counter-title"> Player Counter: </div>
 
     <div id="counter"></div>
 
